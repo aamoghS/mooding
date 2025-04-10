@@ -3,7 +3,7 @@ This file will server as the main file for connecting our CNN to the webcam.
 
 This model is trained on the FER2013 dataset. 
 '''
-from keras.models import load_model
+from tensorflow.python.keras.models import load_model
 from keras.utils import load_img, img_to_array
 
 
